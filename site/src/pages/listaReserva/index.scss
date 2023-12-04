@@ -1,0 +1,176 @@
+
+
+.bodylista{
+    
+
+
+background-image: url('../../assets/images/Rectangle\ 908.jpg');
+background-size: 100vw 100vh;
+display: flex;
+flex-direction: column;
+height: 100vh;
+width: 100vw;
+
+
+
+.t{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 20rem;
+    height: 6rem;
+    margin-left: 4vw;
+}
+
+.img{
+    height:7.8rem;
+    width: 8rem;
+    display: flex;
+    align-self: flex-start;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    height: 6rem;
+    background-color: #010915;
+    align-items: center;
+    justify-content: space-between;
+
+    font-family: 'grereg';
+    font-size: 1.5rem;
+    
+}
+
+.voltar{
+    justify-self: flex-start;
+    text-decoration: none;
+    color: #AEABAB;
+}
+
+.nova{
+    justify-self: flex-end;
+    color: #AEABAB;
+    text-decoration: none;
+    margin-right: 6vw;
+}
+
+
+
+
+
+.principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    height: 90vh;
+}
+
+.div1{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    justify-content: center;
+    height: 45vh;
+}
+
+
+
+
+.j{
+    color: #A56B27;
+    display: flex;
+    justify-content: flex-start;
+    width: 30vw;
+    font-size: 1.3rem;
+    font-family: 'grereg';
+    font-weight: 200;
+}
+
+th{
+    text-align: center;
+    font-family: 'grereg';
+    color: #FFF;
+    font-weight: 100;
+}
+
+td{
+    text-align: center;
+    color: #010915;
+    font-family: 'her';
+
+}
+
+tr{
+
+}
+
+table{
+    border-collapse: collapse;
+    width: 85vw;
+}
+
+tbody{
+    background-color: #AEABAB;
+    text-align: center;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #737373;
+}
+
+.tabela{
+    width: 85vw;
+    height: 75vh;
+    background-color: #010915;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 2rem;
+
+}
+
+.editar, .nao, .sim{
+    width: 1rem;
+    height: 1rem;
+    border: 0;
+    box-sizing: border-box;
+    
+}
+
+.editar:hover, .sim:hover, .nao:hover{
+    cursor: pointer;
+}    
+
+.imgs{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+button{
+    appearance: none;
+    border: 0;
+    padding: 0.2rem;
+    background-color: #01091500;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+}
